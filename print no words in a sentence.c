@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-int main(void) {
+void main() {
 	char a[100];
 	int i,c=1;
 	printf("enter the string:");
@@ -12,7 +12,5 @@ int main(void) {
     c++;
         }
     }printf("%d",c);
-    
-	return(0);
 	
 }
