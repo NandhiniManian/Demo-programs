@@ -2,7 +2,7 @@
 
 void main()
 {
-int a,i,c;
+int a;
 printf("enter the number :\t");
 scanf("%d\n",&a);
 if(a%7==0) 
