@@ -21,6 +21,7 @@ for(i=0;i<n;i++)
 {
 printf("\t%d",A[i]);    
 }
+printf("%d\t",A[(n-1)/2]);    
 }
 void quick(int A[SIZE],int low,int high)
 {
