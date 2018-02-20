@@ -16,7 +16,6 @@ printf("%s",a);
 else
 {
 b=l/2;
-a[b]='*';
 a[b-1]='*';
 printf("%s",a);
 }
