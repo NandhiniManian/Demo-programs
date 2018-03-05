@@ -1,18 +1,16 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
-int a,i,k;
-printf("enter the number:\n");
-scanf("%d\n",&a);
-for(i=1;i<=a;i++)
-{
- k=i*2; 
-if(k==a)
-{
- printf("yes") ;  
-}
-    
-}
+    int n, temp;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+
+    temp = sqrt(n);
+
+    if(temp*temp == n) printf("YES.");
+    else printf("NO.");
+
     return 0;
 }
